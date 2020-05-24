@@ -1,0 +1,44 @@
+{
+  "name": "@poach/core",
+  "version": "0.0.0",
+  "description": "Helps transpiling, linting, and bundling node modules for the web.",
+  "keywords": [
+    "webpack",
+    "babel",
+    "eslint",
+    "typescript",
+    "umd"
+  ],
+  "author": "Marcello Montemagno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellomontemagno/poach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcellomontemagno/poach/issues"
+  },
+  "homepage": "https://github.com/marcellomontemagno/poach",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "babel-loader": "8.1.0",
+    "clean-webpack-plugin": "3.0.0",
+    "core-js": "3.6.4",
+    "css-loader": "3.5.3",
+    "eslint": "6.8.0",
+    "eslint-loader": "3.0.3",
+    "file-loader": "5.1.0",
+    "html-webpack-plugin": "3.2.0",
+    "regenerator-runtime": "0.13.3",
+    "style-loader": "1.2.1",
+    "url-loader": "3.0.0",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3",
+    "webpack-node-externals": "1.7.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@poach/typescript",
+  "version": "0.0.0",
+  "description": "Poach configuration recipe for typescript.",
+  "keywords": [
+    "webpack",
+    "babel",
+    "eslint",
+    "typescript",
+    "umd"
+  ],
+  "author": "Marcello Montemagno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellomontemagno/poach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcellomontemagno/poach/issues"
+  },
+  "homepage": "https://github.com/marcellomontemagno/poach",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "7.9.0",
+    "@typescript-eslint/eslint-plugin": "2.22.0",
+    "@typescript-eslint/parser": "2.22.0",
+    "fork-ts-checker-webpack-plugin": "4.0.5",
+    "typescript": "3.8.3"
+  }
+}

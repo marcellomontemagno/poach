@@ -1,0 +1,30 @@
+{
+  "name": "@poach/react-ts",
+  "version": "0.0.0",
+  "description": "Typescript types for @poach/react",
+  "keywords": [
+    "webpack",
+    "babel",
+    "eslint",
+    "typescript",
+    "umd",
+    "react"
+  ],
+  "author": "Marcello Montemagno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellomontemagno/poach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcellomontemagno/poach/issues"
+  },
+  "homepage": "https://github.com/marcellomontemagno/poach",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/react": "16.9.35",
+    "@types/react-dom": "16.9.8"
+  }
+}

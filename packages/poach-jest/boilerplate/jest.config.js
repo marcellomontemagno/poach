@@ -1,0 +1,1 @@
+module.exports = require('@poach/jest/config/jest/jest.config.js');

@@ -1,0 +1,29 @@
+{
+  "name": "@poach/jest",
+  "version": "0.0.0",
+  "description": "Poach configuration recipe for jest.",
+  "keywords": [
+    "webpack",
+    "babel",
+    "eslint",
+    "typescript",
+    "umd",
+    "jest"
+  ],
+  "author": "Marcello Montemagno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellomontemagno/poach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcellomontemagno/poach/issues"
+  },
+  "homepage": "https://github.com/marcellomontemagno/poach",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "jest": "25.5.4"
+  }
+}

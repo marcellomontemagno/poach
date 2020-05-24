@@ -1,0 +1,4 @@
+- Running `npm run start` will start your application in development mode using `src/index.js` as entry point.
+- Running `npm run build:app` will bundle your code as a static web application using `src/index.js` as entry point and `dist/app` as output directory.
+- Running `npm run build:umd` will bundle your code as [umd](https://github.com/umdjs/umd) using `src/biModule/index.js` as entry point and `dist/umd` as output directory.
+- Running `npm run build` will start `npm run build:app` and `npm run build:umd` one after the other.

@@ -1,0 +1,1 @@
+module.exports = require('@poach/core/config/eslint/eslint.core');

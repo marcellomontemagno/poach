@@ -1,0 +1,29 @@
+{
+  "name": "@poach/jest-ts",
+  "version": "0.0.0",
+  "description": "Typescript types for @poach/jest",
+  "keywords": [
+    "webpack",
+    "babel",
+    "eslint",
+    "typescript",
+    "umd",
+    "react"
+  ],
+  "author": "Marcello Montemagno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellomontemagno/poach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcellomontemagno/poach/issues"
+  },
+  "homepage": "https://github.com/marcellomontemagno/poach",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/jest": "25.2.3"
+  }
+}
