@@ -1,6 +1,6 @@
 {
   "name": "@poach/typescript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Poach configuration recipe for typescript.",
   "keywords": [
     "webpack",
