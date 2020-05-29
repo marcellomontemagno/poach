@@ -14,13 +14,13 @@ A recipe structure looks something like this:
 /poach-recipeX
   /boilerplate (files you need to add to your project)
   /config
-    /toolX (containing configuration for toolY)
-    /toolY (containing configuration for toolZ)
-/package.json (holding the dependencies toolX,Y,Z need)
+    /toolY (containing configuration for toolY)
+    /toolZ (containing configuration for toolZ)
+/package.json (holding the dependencies toolY,Z need)
 /README.md (instructions on how to use the recipe)
 ```
 
-Even if you decide not to use a recipe the recipe structure should be easy for you to inspect if you want to know how a basic configuration for toolX, Y, Z looks like.
+Even if you decide not to use a recipe the recipe structure should be easy for you to inspect if you want to know how a basic configuration for toolY,Z looks like.
 
 The basic features of poach come with the ['@poach/core'](https://github.com/marcellomontemagno/poach/tree/master/packages/poach-core) recipe.
 
