@@ -12,7 +12,7 @@ function configure(config) {
     plugins: [
       'react',
       'react-hooks',
-      ...config.plugins
+      ...(config.plugins || [])
     ],
     settings: {
       ...(config.settings || {}),

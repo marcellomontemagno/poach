@@ -6,9 +6,6 @@ function configure(config) {
       'plugin:@typescript-eslint/eslint-recommended'
     ],
     parser: '@typescript-eslint/parser',
-    parserOptions: {
-      sourceType: 'module'
-    },
     plugins: [
       ...(config.plugins || []),
       '@typescript-eslint'
