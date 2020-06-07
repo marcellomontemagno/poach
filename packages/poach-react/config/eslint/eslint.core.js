@@ -19,6 +19,10 @@ function configure(config) {
       react: {
         version: "detect" //todo remove this once the new eslint major is released
       }
+    },
+    rules: {
+      ...config.rules,
+      'react/prop-types': 'off'
     }
   }
 }
